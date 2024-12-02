@@ -11,3 +11,4 @@ app.use('/api/v1', require('./routes/api/v1/foodtruck'))
 app.use(require('./routes/static'))
 
 app.listen(port, () => console.log(`http://localhost:${port}`))
+console.log(`http://localhost:${port}/admin`)
