@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wheels of Flavor</title>
     <link rel="stylesheet" href="/styles/site.css">
-    <script src="/scripts/site.js" defer></script>
+    <script src="./scripts/site.js" defer></script>
 </head>
 <body>
     <div>
         <h1>Wheels of Flavor</h1>
         <h3>We have Comfort Food for your Enjoyment</h3>
-        <div>
+        <div id="menu">
             <h2>Menu</h2>
         </div>
-        <div>
+        <div id="events">
             <h2>Events</h2>
         </div>
         <footer>Wheels of Flavor @20XX</footer>
     </div>
+    <!-- Modal for Recipe Details -->
+	<div class="modal" id="eventModal">
+		<div class="modal-content">
+			<span class="close-button">&times;</span>
+			<h2 id="modalName"></h2>
+			<p><strong>Location:</strong> <span id="modalLocation"></span></p>
+			<p><strong>Date:</strong> <span id="modalDate"></span></p>
+			<p><strong>Time:</strong> <span id="modalTime"></span></p>
+		</div>
+	</div>
 </body>
 </html>
