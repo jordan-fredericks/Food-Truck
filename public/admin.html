@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheels of Flavor</title>
+    <link rel="stylesheet" href="/public/styles/site.css">
+    <script src="/scripts/site.js" defer></script>
+    <style>
+        #item1{grid-area: Header}
+        #item2{grid-area: Name}
+        #item3{grid-area: NameInput}
+        #item4{grid-area: Description}
+        #item5{grid-area: DescriptionInput}
+        #item6{grid-area: Price}
+        #item7{grid-area: PriceInput}
+        #item8{grid-area: ImageURL}
+        #item9{grid-area: ImageURLInput}
+        #item10{grid-area: Submit}
+
+        .gc{
+            margin-top: 50px;
+            display: grid;
+            grid-template-areas: 
+                'Header Header'
+                'Name NameInput'
+                'Description DescriptionInput'
+                'Price PriceInput'
+                'ImageURL ImageURLInput'
+                'Submit Submit'
+        ;
+            padding: 0px;
+        }
+
+        div{
+            text-align: center;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+
+        #item1{
+            border: 1px solid;
+        }
+        #item2{
+            border: 1px solid;
+        }
+        #item3{
+            border: 1px solid;
+        }
+        #item4{
+            border: 1px solid;
+        }
+        #item5{
+            border: 1px solid;
+        }
+        #item6{
+            border: 1px solid;
+        }
+        #item7{
+            border: 1px solid;
+        }
+        #item8{
+            border: 1px solid;
+        }
+        #item9{
+            border: 1px solid;
+        }
+        #item10{
+            border: 1px solid;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Wheels of Flavor</h1>
+        <form method="post">
+            <div class="gc">
+                <div id="item1"><h3>Add New Menu Item</h3></div>
+                <div id="item2">Name</div>
+                <div id="item3"><input type="text" name="txtName" id="txtName" /></div>
+                <div id="item4">Description</div>
+                <div id="item5"><input type="text" name="txtDescription" id="txtDescription" /></div>
+                <div id="item6">Price</div>
+                <div id="item7"><input type="text" name="txtPrice" id="txtPrice" /></div>
+                <div id="item8">Image URL</div>
+                <div id="item9"><input type="text" name="txtURL" id="txtURL" /></div>
+                <div id="item10"><input type="submit" value="Add Item" /></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
