@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(250, 246, 190);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+/*New Menu Item Form Style*/
+
+        .item1{grid-area: ItemHeader}
+        .item2{grid-area: Name}
+        .item3{grid-area: NameInput}
+        .item4{grid-area: Description}
+        .item5{grid-area: DescriptionInput}
+        .item6{grid-area: Price}
+        .item7{grid-area: PriceInput}
+        .item8{grid-area: ImageURL}
+        .item9{grid-area: ImageURLInput}
+        .item10{grid-area: Submit}
+
+        .menugc{
+            margin-top: 50px;
+            display: grid;
+            grid-template-areas: 
+                'ItemHeader ItemHeader'
+                'Name NameInput'
+                'Description DescriptionInput'
+                'Price PriceInput'
+                'ImageURL ImageURLInput'
+                'Submit Submit'
+        ;
+            padding: 0px;
+        }
+
+        div{
+            text-align: center;
+            padding: 10px 0;
+            font-size: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .item1{
+            border-top: 2px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .item2{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .item3{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .item4{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .item5{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .item6{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .item7{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .item8{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .item9{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .item10{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            border-left: 2px solid;
+        }
+
+
+/*New Event Item Form Style*/
+
+        .event1{grid-area: MenuHeader}
+        .event2{grid-area: Name}
+        .event3{grid-area: NameInput}
+        .event4{grid-area: Location}
+        .event5{grid-area: LocationInput}
+        .event6{grid-area: Date}
+        .event7{grid-area: DateInput}
+        .event8{grid-area: Time}
+        .event9{grid-area: TimeInput}
+        .event10{grid-area: Submit}
+
+        .eventgc{
+            margin-top: 50px;
+            display: grid;
+            grid-template-areas: 
+                'MenuHeader MenuHeader'
+                'Name NameInput'
+                'Location LocationInput'
+                'Date DateInput'
+                'Time TimeInput'
+                'Submit Submit'
+        ;
+            padding: 0px;
+        }
+
+        .event1{
+            border-top: 2px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .event2{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .event3{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .event4{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .event5{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .event6{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .event7{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .event8{
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 2px solid;
+        }
+        .event9{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+        }
+        .event10{
+            border-top: 1px solid;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            border-left: 2px solid;
+        }
